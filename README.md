@@ -15,6 +15,7 @@ Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using
 - [x] Display the retrieved data in a RecyclerView or ListView.
 - [x] Navigate to an item details screen once the user clicks on a list item.
 - [x] Unit testing (Nice to have but not mandatory).
+      
  Bonus point: Showcase how to handle sender and receiver data between 2 devices.
 - [x] Try to send some of the received items data model to another android     app on a separate device via Bluetooth or network. 
   Perform some action then send it back again to the sender app.
