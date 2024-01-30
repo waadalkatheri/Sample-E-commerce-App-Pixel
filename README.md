@@ -53,6 +53,7 @@ Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using
 - [Accompanist](https://google.github.io/accompanist/pager/) - Pager layout.
 - [NFC](https://developer.android.com/develop/connectivity/nfc/nfc) - provide short-range communication to wirelessly exchange data either between two mobile devices or between a device.
  ## Screenshots: 
+ <img src="assets/Screenshot 1445-07-19 at 12.09.57 AM.png" height=350 width=2000/> 
 
 
 
