@@ -2,6 +2,11 @@
 
 ## Introduction
 Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using uses the DummyJsone API, and Jetpack Compose, Android Architecture Components and using kotlin as programming language.
+
+ ## Screenshots: 
+ <img src="assets/Screenshot 1445-07-19 at 12.09.57 AM.png" height=350 width=2000/> 
+
+
   # Requirements:
   
 - [x] Use Kotlin as the primary programming language.
@@ -52,9 +57,6 @@ Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using
 -  [SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences) - Store private primitive data in key-value pairs.
 - [Accompanist](https://google.github.io/accompanist/pager/) - Pager layout.
 - [NFC](https://developer.android.com/develop/connectivity/nfc/nfc) - provide short-range communication to wirelessly exchange data either between two mobile devices or between a device.
- ## Screenshots: 
- <img src="assets/Screenshot 1445-07-19 at 12.09.57 AM.png" height=350 width=2000/> 
-
 
 
 
