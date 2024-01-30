@@ -1,40 +1,68 @@
-# My Shop
-My Shop App is a sample e-commerce app built with [Jetpack Compose](https://developer.android.com/jetpack/compose/), Android Architecture Components and using kotlin as programming language.
+# Sample E-commerce App - Coding Challenge
 
-## Libraries And Technologies used
--  [Jetpack Compose](https://developer.android.com/jetpack/compose/) for UI
--  Compose [Navigation](https://developer.android.com/jetpack/compose/navigation)
--  [Hilt](https://developer.android.com/training/dependency-injection/hilt-jetpack) for dependency Injection
--  [Room](https://developer.android.com/training/data-storage/room) for storing complex data locally
--  MVVM: Android architecture used to separate logic code from ui and save the application state in case the configuration changes.
--  [Material3](https://m3.material.io/) Design.
--  [Retrofit + Gson Converter](https://square.github.io/retrofit/) : Fetch products from rest api as a gson file and convert it to a kotlin object.
--  [Coroutines](https://developer.android.com/kotlin/coroutines) : Executing some code in the background
--  [Coil](https://coil-kt.github.io/coil/compose/) for loading images with Jetpack Compose.
--  [Splash Screen](https://developer.android.com/develop/ui/views/launch/splash-screen#splash-screen-resources) API Dependency.
--  [Firebase Auth](https://firebase.google.com/docs/auth/android/start) : Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app.
--  [Firebase Firestore](https://firebase.google.com/docs/firestore/) : Cloud Firestore is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud.
--  [Desugaring](https://developer.android.com/studio/write/java8-support-table) : API desugaring allows developers to use more APIs without requiring a minimum API level for your app.
--  [SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences) :  Store private primitive data in key-value pairs.
--  Accompanist [Pager layout](https://google.github.io/accompanist/pager/)
-
-
-## API
-E-commerce App uses the [DummyJson](https://dummyjson.com/) for constructing RESTful API.
-And also uses [Firebase](https://firebase.google.com/) for authentication and firestore.
-
-## App Preview
-<div>
-  <img src="https://github.com/Khadar3344/My-Shop/assets/79355446/08b3028e-4b12-44d5-b225-500ed2f28414" widht="300" height="600">
-  <img src="https://github.com/Khadar3344/My-Shop/assets/79355446/e3a56436-377d-4f47-ab55-f7646b92a294" widht="300" height="600">
-  <img src="https://github.com/Khadar3344/My-Shop/assets/79355446/78d35e63-9078-4902-97a2-e679b967eafd" widht="300" height="600">
-  <img src="https://github.com/Khadar3344/My-Shop/assets/79355446/d9eb8bba-7f2f-4235-8b1e-1989f6e7d068" widht="300" height="600">
-  <img src="https://github.com/Khadar3344/My-Shop/assets/79355446/699c4550-a0fb-4295-81cd-7bc16774c2fe" widht="300" height="600">
-  <img src="https://github.com/Khadar3344/My-Shop/assets/79355446/0b77f1f0-119b-4d97-89d1-0c81d1321e04" widht="300" height="600">
-  <img src="https://github.com/Khadar3344/My-Shop/assets/79355446/f8842b6c-683d-47a9-92e5-a02f603fbd49)" widht="300" height="600">
-  <img src="https://github.com/Khadar3344/My-Shop/assets/79355446/bbe9518a-e309-475f-822c-e7356a17addf" widht="300" height="600">
-  <img src="https://github.com/Khadar3344/My-Shop/assets/79355446/aeeb8a41-a194-49b0-99ba-9e9520eac3f8" widht="300" height="600">
-  <img src="https://github.com/Khadar3344/My-Shop/assets/79355446/e5f34630-5d73-4d2c-8b6b-93428fb92b37" widht="300" height="600">
+## Introduction
+Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using uses the DummyJsone API, and Jetpack Compose, Android Architecture Components and using kotlin as programming language.
+  # Requirements:
   
-</div>
-# Sample-E-commerce-App-Pixel
+- [x] Use Kotlin as the primary programming language.
+- [x] Implement MVVM (Model-View-ViewModel) architecture.
+- [x] Fetch data asynchronously (Coroutines is preferred).
+- [x] Display the retrieved data in a RecyclerView or ListView.
+- [x] Navigate to an item details screen once the user clicks on a list item.
+- [x] Unit testing (Nice to have but not mandatory).
+ Bonus point: Showcase how to handle sender and receiver data between 2 devices.
+- [x] Try to send some of the received items data model to another android     app on a separate device via Bluetooth or network. 
+  Perform some action then send it back again to the sender app.
+  Make a toast message to show the received data.
+
+
+  
+   # Features
+
+ - Product List :
+    - Displays a paginated list of items fetched from a public API.
+  - Detail Page:
+     - Users can view detailed information about a selected product.
+   - Add To Cart:
+     - Allows users to add products to their shopping cart, which is stored locally using Room database.
+   -  My Cart Page:
+      - Users can view the products they have added to their cart.
+     - Search Page:
+       - Implements product search functionality to help users find products quickly.
+      -  NFC:
+         - Implements NFC received items data model from another Android app on a separate device. will receive toast message to show the data is  received data).
+    
+  ## Tech Stack :
+
+- [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
+- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) -Used to do asynchronous work without blocking the main thread and increasing productivity. 
+- [Jetpack Compose for UI](https://developer.android.com/jetpack/compose/) - Android’s recommended modern toolkit for building native UI.
+- [MVVM Architecture](https://developer.android.com/jetpack/guide) - The MVVM architecture used to cleanly separate the business and presentation logic of the application, using characteristics of MVVM such as unidirectional data flow, dependency flow, and loose coupling.
+ - [Compose Navigation](https://developer.android.com/jetpack/androidx/releases/navigation) - navigate between composables while taking advantage of the Navigation component's infrastructure and features.
+  - [Room](https://developer.android.com/topic/libraries/architecture/room) - The Room library used to access the local SQLite database with object-relational mapper approach.
+  - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - DataStore is used with Flows to store data key-value pairs and typed objects.
+  - [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Hilt-Dagger library used to use independently of dependencies.
+- [Retrofit](https://github.com/square/retrofit) - Used to REST API clients.
+- [Coil](https://coil-kt.github.io/coil/compose/) - for loading images with Jetpack Compose.
+- [Splash](https://developer.android.com/develop/ui/views/launch/splash-screen#splash-screen-resources) - API Dependency.
+-  [Material3](https://m3.material.io/)  Design.
+- [Firebase Auth](https://firebase.google.com/docs/auth/android/start) - Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app.
+-  [Desugaring](https://developer.android.com/studio/write/java8-support-table
+)  API desugaring allows developers to use more APIs without requiring a minimum API level for your app.
+-  [SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences) - Store private primitive data in key-value pairs.
+- [Accompanist](https://google.github.io/accompanist/pager/) - Pager layout.
+- [NFC](https://developer.android.com/develop/connectivity/nfc/nfc) - provide short-range communication to wirelessly exchange data either between two mobile devices or between a device.
+ ## Screenshots: 
+
+
+
+
+
+ 
+
+
+
+
+
+   
+   
