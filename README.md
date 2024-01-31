@@ -1,7 +1,7 @@
 # Sample E-commerce App - Coding Challenge
 
 ## Introduction
-Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using uses the DummyJsone API, and Jetpack Compose, Android Architecture Components and using kotlin as programming language.
+Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using uses the DummyJsone API, and Jetpack Compose, Android Architecture Components using kotlin as programming language.
 
  ## Screenshots: 
  <img src="assets/Screenshot 1445-07-19 at 12.09.57 AM.png" height=450 width=2100/> 
@@ -36,7 +36,7 @@ Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using
      - Search Page:
        - Implements product search functionality to help users find products quickly.
       -  NFC:
-         - Implements NFC received items data model from another Android app on a separate device. will receive toast message to show the data is  received data).
+         - Implements NFC received items data model from another Android app on a separate device. will receive toast message to show the data is  received data.
     
   ## Tech Stack :
 
@@ -46,7 +46,6 @@ Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using
 - [MVVM Architecture](https://developer.android.com/jetpack/guide) - The MVVM architecture used to cleanly separate the business and presentation logic of the application, using characteristics of MVVM such as unidirectional data flow, dependency flow, and loose coupling.
  - [Compose Navigation](https://developer.android.com/jetpack/androidx/releases/navigation) - navigate between composables while taking advantage of the Navigation component's infrastructure and features.
   - [Room](https://developer.android.com/topic/libraries/architecture/room) - The Room library used to access the local SQLite database with object-relational mapper approach.
-  - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - DataStore is used with Flows to store data key-value pairs and typed objects.
   - [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Hilt-Dagger library used to use independently of dependencies.
 - [Retrofit](https://github.com/square/retrofit) - Used to REST API clients.
 - [Coil](https://coil-kt.github.io/coil/compose/) - for loading images with Jetpack Compose.
