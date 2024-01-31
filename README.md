@@ -32,8 +32,8 @@ Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using
    - Add To Cart:
      - Allows users to add products to their shopping cart, which is stored locally using Room database.
    -  My Cart Page:
-      - Users can view the products they have added to their cart.
-     - Search Page:
+      - Users can view the products they have added to their cart.  
+   - Search Page:
        - Implements product search functionality to help users find products quickly.
       -  NFC:
          - Implements NFC received items data model from another Android app on a separate device. will receive toast message to show the data is  received data.
