@@ -26,7 +26,7 @@ Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using
    # Features
 
  - Product List :
-    - Displays a paginated list of items fetched from a public API.
+    - Displays a list of items fetched from a public API.
   - Detail Page:
      - Users can view detailed information about a selected product.
    - Add To Cart:
