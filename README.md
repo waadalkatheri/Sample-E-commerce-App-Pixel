@@ -1,4 +1,6 @@
-# Sample E-commerce App - Coding Challenge
+# The MVVM arch using Coroutine and Android Jetpack.
+
+
 
 ## Introduction
 Pixel Shop is sample app built for Coding Challenge with MVVM Architecture using uses the DummyJsone API, and Jetpack Compose, Android Architecture Components using kotlin as programming language.
